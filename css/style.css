@@ -1,0 +1,73 @@
+.text {
+  text-align: center;
+  text-transform: uppercase;
+  background-color: rgb(81, 163, 163);
+  padding: 20px;
+  opacity: 0.7;
+}
+
+body {
+  background-image: url("../images/img_5.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.title {
+  width: 100%;
+  max-width: 400px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#message {
+  width: calc(100% - 80px);
+  height: 40px;
+  padding: 5px;
+  font-size: 16px;
+  border: 2px solid #22748b;
+  border-radius: 20px 0 0 20px;
+  background-color: rgb(252, 225, 229);
+}
+
+#btnSend {
+  width: 80px;
+  height: 40px;
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 0 20px 20px 0;
+  border: 2px solid #22748b;
+  background-color: rgb(141, 193, 194);
+}
+
+#messages {
+  margin-top: 20px;
+  overflow-y: auto;
+  max-height: 300px;
+  padding: 10px;
+  background-color: rgba(202, 221, 221, 0.7);
+  border-radius: 10px;
+}
+
+.message {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+.message .nick {
+  font-weight: bold;
+}
+
+.message .timestamp {
+  font-size: 12px;
+  color: #666;
+}
